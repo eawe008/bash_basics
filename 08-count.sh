@@ -13,7 +13,7 @@ for file in *.sh; do
     thecount=`grep -o "the" $file | wc -l`
     echo "$file has $lines lines"
     # count how many instances of the word 'the' are in each file
-    echo "$file has $thecount instances of the word 'the'"
+    echo "$file includes the word the $thecount times"
     echo
 done
 
